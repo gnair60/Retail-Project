@@ -22,20 +22,30 @@ The scope of the project focuses on developing an end-to-end data engineering pi
 
 ## Tech Stack
 #### On-Premises Components
-
-    MySQL: Relational data storage
-    Apache Hive: Data transformation
-    Apache Spark: Distributed data processing
-    Apache Kafka: Real-time streaming
+- MySQL: Relational data storage
+- Apache Hive: Data transformation
+- Apache Spark: Distributed data processing
+- Apache Kafka: Real-time streaming
 
 #### Cloud Services (AWS)
 
-    Amazon S3: Storage
-    AWS Lambda: Event-driven data processing
-    Amazon Redshift & DynamoDB: Data querying and analytics
+- Amazon S3: Storage
+- AWS Lambda: Event-driven data processing
+- Amazon Redshift & DynamoDB: Data querying and analytics
 
 
+## Project Structure
 
+### The project comprises the following tasks:
+
+- Data Ingestion: Using Sqoop for MySQL-to-Hive integration
+- Schema Design: Relational tables for regions, customers, orders, and suppliers
+- Data Processing: PySpark transformations for reading, writing, and cleaning data
+- Optimization: Partitioning, bucketing, and compression strategies (Parquet & GZIP)
+- Real-Time Streaming: Kafka + Spark Structured Streaming for live data pipelines
+- Delta Lake: ACID-compliant operations for large datasets
+- Cloud Integration: Connecting Hive and Spark with AWS S3 and Redshift
+- Visualizations: Tableau dashboards for business queries and actionable insights
 
 
 
