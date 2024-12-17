@@ -1,6 +1,5 @@
 # Project Gladiator - Retail Data Engineering Pipeline
 ## Introduction
-![Alt text](Line.png)
 The E-commerce industry generates massive volumes of data daily. This project focuses on building a scalable and efficient data engineering pipeline to process, analyze, and transform heterogeneous customer order data into actionable insights. We combined on-premises tools and cloud services to deliver an end-to-end solution.
 
 ## Business Problem
@@ -49,12 +48,12 @@ The scope of the project focuses on developing an end-to-end data engineering pi
 
 ## Key Features
 
-### Failure Handling: Bad records systematically identified and managed
-### Performance Optimization:
+#### Failure Handling: Bad records systematically identified and managed
+#### Performance Optimization:
 - Partitioning and bucketing with Parquet format
 - GZIP compression for storage efficiency
-### Real-Time Insights: Kafka and Spark enable live streaming pipelines
-### Interactive Dashboards: Business insights visualized using Tableau
+#### Real-Time Insights: Kafka and Spark enable live streaming pipelines
+#### Interactive Dashboards: Business insights visualized using Tableau
 
 ## Business Value
 
@@ -66,3 +65,4 @@ The scope of the project focuses on developing an end-to-end data engineering pi
 
 This project successfully automated customer order data analysis using Big Data tools, reducing processing time by 40%. By analyzing data trends, the team delivered actionable insights that reduced customer churn by 30% and increased revenue by 10%. The solution highlights the power of a scalable data pipeline and real-time analytics to drive informed decision-making and business growth.
 
+![DASHBOARD](https://github.com/gnair60/Retail-Project/blob/main/Tableau%20Dashboard.jpg)
